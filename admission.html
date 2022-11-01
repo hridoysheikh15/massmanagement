@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admission hear:-</title>
+</head>
+
+<body class="admissionpage">
+    <div class="newbox">
+        <h3>Admission Form</h3>
+        <form action="action.php" method="post">
+            <label for="fname">Name
+                <pre style="display: inline">           :</pre>
+                <input type="text" name="fname"/>
+            </label>
+            <br />
+            <br />
+            <label for="faname" >Father's Name
+                <pre style="display: inline">    :</pre>
+                <input type="text" name="faname"/>
+            </label>
+            <br />
+            <br />
+            <label for="mname" >Mother's Name
+                <pre style="display: inline">   :</pre>
+                <input type="text" name="mname"/>
+            </label> <br> <br>
+            <label for="distric">Distric
+                <pre style="display: inline;">          :           </pre>
+                <select name="distric" id="">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Borishal">Borishal</option>
+                    <option value="Cittagong">Cittagong</option>
+                    <option value="Sylet">Sylet</option>
+                    <option value="Rongpur">Rongpur</option>
+                </select>
+            </label> <br> <br>
+            <label for="gender">
+                Gender
+                <pre style="display: inline;">     :</pre>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </label> <br> <br>
+            <label for="numbe">
+                Contact Number
+                <pre style="display: inline;"> :</pre>
+                <input type="number" name="numbe" id="">
+            </label> <br> <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
